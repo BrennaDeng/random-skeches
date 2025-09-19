@@ -1,0 +1,120 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #312e2e;
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background: linear-gradient(135deg, #343f41);
+  background-image: url('Vassily_Kandinsky,_1923_-_Composition_8,_huile_sur_toile,_140_cm_x_201_cm,_Musée_Guggenheim,_New_York.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center center; 
+  background-attachment: fixed; 
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "Libertinus Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 2rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Libertinus Sans", sans-serif;
+  color: #222;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* Headings */
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #9babc6;
+  padding-left: 0.75rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Text */
+p {
+  margin-bottom: 1.25rem;
+  color: #555;
+  text-align: left;
+  line-height: 1.9;
+}
+
+/* Links */
+a {
+  color: #6e8ac0;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(74,123,216,0.3);
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #2d4b8c;
+  border-bottom-color: #2d4b8c;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Optional: card style for sections */
+section {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  margin-bottom: 4rem;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 0.5rem; 
+}
+
+.image-container img {
+  width: 300px; 
+  height: auto;
+  object-fit: cover;
+}
